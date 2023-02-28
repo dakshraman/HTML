@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Historical Places in India</title>
+  <style>
+    header{
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 50px;
+      background-color: rgb(18, 91, 164);
+      color:rgb(0, 0, 0);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer{
+     position: fixed;
+      left: 0%;
+      bottom: 0%;
+      width: 100%;
+      background-color: rgb(15, 80, 144);
+      color: rgb(0, 0, 0);
+      font-family: 'Times New Roman', Times, serif;
+    }
+    h1{
+      font-size: large;
+      text-align: center;
+    }
+    body{
+      background-color:white;
+        margin-top: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+		.container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			grid-gap: 20px;
+			padding: 20px;
+		}
+
+		.item {
+			background-color: rgb(218, 218, 218);
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+
+		.item img {
+			max-width: 100%;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+
+		.item h2 {
+			font-size: 24px;
+			margin-top: 0;
+		}
+    img{
+      width: fit-content;
+      height: fit-content;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Historical Places in India</h1>
+  </header>
+  <div class="container">
+		<div class="item">
+			<h2>Taj Mahal</h2>
+			<img src="tajmahal.jpg" alt="Taj Mahal">
+			<p>The Taj Mahal is a white marble mausoleum located in Agra, India. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. It is considered one of the most beautiful buildings in the world and is a UNESCO World Heritage Site.</p>
+		</div>
+
+		<div class="item">
+			<h2>Qutub Minar</h2>
+			<img src="qutubminar.jpg" alt="Qutub Minar">
+			<p>The Qutub Minar is a minaret located in Delhi, India. It is made of red sandstone and marble and is the tallest brick minaret in the world. It was built by Qutub-ud-din Aibak and completed by his successor, Iltutmish.</p>
+		</div>
+
+		<div class="item">
+			<h2>Agra Fort</h2>
+			<img src="agrafort.jpg" alt="Agra Fort">
+			<p>The Agra Fort is a historical fort located in Agra, India. It was built by the Mughal Emperor Akbar in the 16th century and is a UNESCO World Heritage Site. The fort has several beautiful palaces, mosques, and gardens within its walls.</p>
+		</div>
+	</div>
+  <footer>
+    <h1>Designed and Developed by Raman Daksh</h1>
+  </footer>
+</body>
+</html>
